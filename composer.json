@@ -1,0 +1,11 @@
+{
+  "name": "cheplv/w3-total-cache-qtx",
+  "version": "1.0.0",
+  "description": "Wordpress w3 total cache extension for support qtranslate-x plugin",
+  "homepage": "https://github.com/cheplv/w3-total-cache-qtx",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3",
+    "composer/installers": "~1.0"
+  }
+}

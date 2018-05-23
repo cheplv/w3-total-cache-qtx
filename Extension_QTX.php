@@ -36,6 +36,10 @@ $p = new Extension_QTX();
 $p->run();
 
 if ( is_admin() ) {
+    if (!class_exists('W3TCQTX\Extension_QTX_Admin')) {
+        require_once('Extension_QTX_Admin.php');
+    }
+
     $p = new Extension_QTX_Admin();
     $p->run();
 }
